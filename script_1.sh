@@ -2,6 +2,7 @@
 
 DEBIAN_FRONTEND=noninteractive
 
+cd
 sudo rm /etc/apt/apt.conf.d/*.*
 sudo apt update
 mkdir downloads
